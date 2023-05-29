@@ -146,7 +146,7 @@ function InvoiceTable({ showAdvanceSearch = false }) {
             Status
           </div>
           <div className="sm:text-left text-default-color font-title flex-1">
-            Amount
+            Price
           </div>
           <div className="sm:text-left text-default-color font-title sm:w-11">
             Action

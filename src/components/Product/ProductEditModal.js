@@ -187,13 +187,13 @@ function ProductEditModal(props) {
                         </div>
                         <div className="mt-2">
                           <div className="font-title text-sm text-default-color">
-                            Product Amount
+                            Product Price
                           </div>
                           <div className="flex">
                             <div className="flex-1">
                               <input
                                 autoComplete="nope"
-                                placeholder="Amount"
+                                placeholder="Price"
                                 type="number"
                                 className={
                                   !validForm.amount && isTouched

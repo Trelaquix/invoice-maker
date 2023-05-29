@@ -134,7 +134,7 @@ function ProductTable({ showAdvanceSearch = false }) {
             Name
           </div>
           <div className="sm:text-left text-default-color font-title flex-1">
-            Amount
+            Price
           </div>
           <div className="sm:text-left text-default-color font-title sm:w-11">
             Action
@@ -175,7 +175,7 @@ function ProductTable({ showAdvanceSearch = false }) {
                 </div>
 
                 <div className={defaultTdStyle}>
-                  <div className={defaultTdContentTitleStyle}>Amount</div>
+                  <div className={defaultTdContentTitleStyle}>Price</div>
                   <div className={defaultTdContent}>
                     <span className="whitespace-nowrap text-ellipsis overflow-hidden">
                       {product.amount}

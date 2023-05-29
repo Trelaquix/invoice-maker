@@ -1246,7 +1246,7 @@ function InvoiceDetailScreen(props) {
                 >
                   {!isExporting && (
                     <span className="sm:hidden w-1/2 flex flex-row items-center">
-                      Amount
+                      Price
                     </span>
                   )}
                   <span
